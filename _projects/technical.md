@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Technical Project Title
-date: 2024-01
+date: 2024-01-15    # Changed from 2024-01 to a full date
 categories: [Technical, Development]
 technologies:
   - Technology 1
