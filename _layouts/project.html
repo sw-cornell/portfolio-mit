@@ -2,116 +2,118 @@
 layout: default
 ---
 <style>
-  #navbar {
-    position: fixed;
-    top: 0;
-    padding: 40px;
-    width: 100%;
-    overflow: auto;
-    transition: top 0.1s;
-  }
-
-  .project__used__item {
-    display: inline-block;
-    margin: 3px 3px 3px 0;
-    font-family: Inconsolata,monospace;
-    font-size: .75rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border-radius: 3px;
-    color: #007bff;
-    border: 1px solid #007bff;
-    background: 0 0;
-  }
-
-  img.responsive {
-    width: 100%;
-    height: auto;
-  }
-
-  /* Add project-specific styles */
-  .project-content {
-    padding: 120px 100px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
-  .section.project-detail {
-    padding-top: 0;
-  }
-
-  @media screen and (max-width: 630px) {
-    .project-content {
-      padding: 120px 70px;
+    #navbar {
+        position: fixed;
+        top: 0;
+        padding: 40px;
+        width: 100%;
+        overflow: auto;
+        transition: top 0.1s;
     }
-  }
 
-  @media screen and (max-width: 480px) {
-    .project-content {
-      padding: 70px 50px;
+    .project__used__item {
+        display: inline-block;
+        margin: 3px 3px 3px 0;
+        font-family: Inconsolata, monospace;
+        font-size: .75rem;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 3px;
+        color: #007bff;
+        border: 1px solid #007bff;
+        background: 0 0;
     }
-  }
+
+    img.responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Add project-specific styles */
+    .project-content {
+        padding: 120px 100px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .section.project-detail {
+        padding-top: 0;
+    }
+
+    @media screen and (max-width: 630px) {
+        .project-content {
+            padding: 120px 70px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .project-content {
+            padding: 70px 50px;
+        }
+    }
 </style>
 
 <div id="site">
-  {% include navbar.html %}
-  {% include switch.html %}
+    {% include navbar.html %}
+    {% include switch.html %}
 
-  <div class="project-content">
-    <!-- Project Header Section -->
-    <div class="section project-detail">
-      <div class="section__title">
-        {{ page.title }}
+    <div id="featured-projects">
+        {% include featured-projects.html %}
       </div>
-      <div class="section__content">
-        <!-- Project metadata -->
-        <div class="project__meta">
-          {% if page.date %}
-          <div class="job__time">{{ page.date | date: "%Y • %B" }}</div>
-          {% endif %}
-          {% if page.categories %}
-          <div class="project__used">
-            {% for category in page.categories %}
-            <span class="project__used__item">{{ category }}</span>
-            {% endfor %}
-          </div>
-          {% endif %}
-        </div>
 
-        <!-- Project content -->
-        <div class="project__description">
-          {{ content }}
+    <div class="project-content">
+        <!-- Project Header Section -->
+        <div class="section__title">
+            {{ page.title }}
         </div>
+        <div class="section__content">
+            <!-- Project metadata -->
+            <div class="project__meta">
+                {% if page.date %}
+                <div class="job__time">{{ page.date | date: "%Y • %B" }}</div>
+                {% endif %}
+                {% if page.categories %}
+                <div class="project__used">
+                    {% for category in page.categories %}
+                    <span class="project__used__item">{{ category }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
 
-        <!-- Technologies -->
-        {% if page.technologies %}
-        <div class="project__tech">
-          <h3>Technologies Used</h3>
-          <div class="project__used">
-            {% for tech in page.technologies %}
-            <span class="project__used__item">{{ tech }}</span>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
+            <!-- Project content -->
+            <div class="project__description">
+                {{ content }}
+            </div>
 
-        <!-- Project links -->
-        {% if page.links %}
-        <div class="project__links">
-          {% if page.links.github %}
-          <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
-          {% endif %}
-          {% if page.links.demo %}
-          <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">Live Demo</a>
-          {% endif %}
+            <!-- Technologies -->
+            {% if page.technologies %}
+            <div class="project__tech">
+                <h3>Technologies Used</h3>
+                <div class="project__used">
+                    {% for tech in page.technologies %}
+                    <span class="project__used__item">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Project links -->
+            {% if page.links %}
+            <div class="project__links">
+                {% if page.links.github %}
+                <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
+                {% endif %}
+                {% if page.links.demo %}
+                <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">Live Demo</a>
+                {% endif %}
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
-      </div>
     </div>
-  </div>
 
-  <div id="footer">
-    {% include footer.html %}
-  </div>
-  {% include top-button.html %}
+    <div id="footer">
+        {% include footer.html %}
+    </div>
+    {% include top-button.html %}
 </div>
