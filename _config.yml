@@ -41,3 +41,9 @@ keep_files:
 plugins_dir:
   - jekyll-minifier
   - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title
