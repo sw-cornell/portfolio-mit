@@ -1,0 +1,45 @@
+<header class="intro">
+  <h1 class="intro__hello">Hi there!
+    <span class="emoji wave-hand animated"></span>
+  </h1>
+
+  <h3 class="intro__tagline">I'm
+    <span class="name">Mia</span>, a software/ML engineer and music technologist
+    <span class="emoji technologist"></span>
+  </h3>
+
+  <div class="image-container">
+    <img src="../img/cover.png" alt="Descriptive text about the image">
+  </div>
+
+  <h3 class="intro__contact">
+    <span>Get in touch </span>
+    <span class="emoji pointer"></span>
+    <span>
+      <a href="mailto:xuening.wang2002@outlook.com" target="_blank" class="highlight-link">xuening.wang2002@outlook.com</a>
+    </span>
+  </h3>
+</header>
+
+<style>
+  .image-container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      display: none;
+    }
+  }
+</style>

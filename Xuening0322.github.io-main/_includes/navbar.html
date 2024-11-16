@@ -1,0 +1,108 @@
+<!-- _includes/navbar.html -->
+<style>
+    #navbar {
+        position: fixed;
+        top: 0;
+        padding: 40px;
+        width: 100%;
+        overflow: auto;
+        transition: top 0.5s;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    body.night #navbar {
+        background-color: #171c28;
+    }
+    
+      #navbar.hidden {
+        visibility: hidden;
+      }
+    
+      #navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #navbar li {
+        float: none;
+    }
+
+    #navbar a {
+        position: relative;
+        display: inline-block;
+        color: #007bff;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 15px;
+        outline: none;
+    }
+
+    #navbar a:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #007bff;
+        content: '';
+        opacity: 0;
+        transition: height 0.5s, opacity 0.5s, transform 0.5s;
+        transform: translateY(-5px);
+    }
+
+    #navbar a:hover:after,
+    #navbar a:focus:after {
+        height: 2px;
+        border-radius: 3px;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    .text {
+        font-size: 0.9rem;
+        display: inline;
+        letter-spacing: 1px;
+    }
+    @media (max-width: 768px) {
+        #navbar {
+            visibility: hidden; /* Hide navbar on small screens */
+        }
+    }
+</style>
+
+<script>
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", () => {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop){
+            document.getElementById("navbar").classList.add('hidden');
+        } else {
+            document.getElementById("navbar").classList.remove('hidden');
+        }
+        lastScrollTop = scrollTop;
+
+        const navbarLinks = document.querySelectorAll('#navbar a');
+        navbarLinks.forEach(link => {
+            const target = document.querySelector(link.getAttribute('href'));
+            const rect = target.getBoundingClientRect();
+            if (rect.top <= 0 && rect.bottom >= 0) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    });
+</script>
+
+<nav id="navbar">
+    <ul>
+        <li><a href="#background"><span class="text">Introduction</span></a></li>
+        <li><a href="#skills"><span class="text">Skills</span></a></li>
+        <li><a href="#featured-projects"><span class="text">Projects</span></a></li>
+        <li><a href="#footer"><span class="text">Contacts</span></a></li>
+    </ul>
+</nav>

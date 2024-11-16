@@ -1,0 +1,47 @@
+- name: E-commerce Admin System
+  url: https://github.com/E-commerce-Admin/E-commerce-Admin-System
+  code: https://github.com/E-commerce-Admin/E-commerce-Admin-System
+  description: A web-based e-commerce management system, facilitating the handling of products, categories, orders, coupons, addresses, and users.
+  image_name: ../img/other/ecom/ecom.png
+  used:
+    - thing: PHP
+    - thing: MySQL
+    - thing: Bootstrap
+    - thing: HTML
+    - thing: CSS
+
+- name: Secure Image Steganography Tool
+  url: https://github.com/random-aes-group/PIPLUP
+  code: https://github.com/random-aes-group/PIPLUP
+  description: An enhanced image steganography solution utilizing LSB (Least Significant Bit) technique, AES encryption, and a unique Pixel-location Image Password mechanism.
+  image_name: ../img/other/stego/stego.png
+  used:
+    - thing: Python
+    - thing: PyAES
+    - thing: OpenCV
+    - thing: GUI
+
+- name: Social Media Platform Application
+  url: https://github.com/SonicHollow/SonicHollowForum
+  code: https://github.com/SonicHollow/SonicHollowForum
+  description: A university social media platform enabling students to post, engage with content, and customize profiles, with an admin system for database CRUD operations.
+  image_name: ../img/other/forum/forum.png
+  used:
+    - thing: Spring Boot
+    - thing: JQuery
+    - thing: Redis
+    - thing: Mybatis
+    - thing: Alibaba Cloud ECS
+    - thing: Docker
+
+- name: CCIC 2021
+  url: https://github.com/csmt-ccic-2021/CCIC
+  code: https://github.com/csmt-ccic-2021/CCIC
+  description: Computer Composition Identification Challenge (CCIC) dedicated to finding improved music generation models and objective evaluation models for a number of music styles, initiated by the Conference on Sound and Music Technology (CSMT) 2021. I was the coordinator of the data challenge. <a class="underline-link" href="https://csmt-ccic-2021.github.io/CCIC/">Website available here!</a>
+  image_name: ../img/other/ccic/ccic.png
+  used:
+    - thing: PyTorch
+    - thing: GitHub Pages
+    - thing: GitBook
+    - thing: HTML
+    - thing: CSS

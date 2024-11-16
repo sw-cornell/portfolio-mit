@@ -1,0 +1,58 @@
+languages:
+  - item: Python
+  - item: JavaScript
+  - item: TypeScript
+  - item: SQL
+  - item: C++
+  - item: Java
+  - item: PHP
+  - item: C#
+  - item: Bash
+  - item: HTML
+  - item: CSS
+  - item: MATLAB
+  - item: Max/MSP
+
+mlds:
+  - item: PyTorch
+  - item: TensorFlow
+  - item: Scikit-learn
+  - item: Keras
+  - item: Pandas
+  - item: Apache Spark
+  - item: MySQL
+  - item: PostgreSQL
+  - item: NoSQL
+  - item: GraphQL
+  - item: SQLite
+  - item: SQLAlchemy
+  - item: Redis
+
+web_technologies:
+  - item: React.js
+  - item: Next.js
+  - item: Node.js
+  - item: Express.js
+  - item: JQuery
+  - item: Spring Boot
+  - item: Flask
+  - item: Django
+  - item: Three.js
+  - item: Plotly.js
+  - item: D3.js
+  - item: Bokeh
+
+
+tools_and_platforms:
+  - item: Docker
+  - item: Git
+  - item: AWS
+  - item: GCP
+  - item: Bash
+  - item: AliCloud
+  - item: Firebase
+  - item: Supabase
+  - item: Vercel
+  - item: Render
+  - item: Postman
+  - item: ActiveMQ
