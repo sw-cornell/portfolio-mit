@@ -2,15 +2,6 @@
 layout: default
 ---
 <style>
-    #navbar {
-        position: fixed;
-        top: 0;
-        padding: 40px;
-        width: 100%;
-        overflow: auto;
-        transition: top 0.1s;
-    }
-
     .project__used__item {
         display: inline-block;
         margin: 3px 3px 3px 0;
@@ -29,15 +20,10 @@ layout: default
         height: auto;
     }
 
-    /* Add project-specific styles */
     .project-content {
         padding: 120px 100px;
         max-width: 1440px;
         margin: 0 auto;
-    }
-
-    .section.project-detail {
-        padding-top: 0;
     }
 
     @media screen and (max-width: 630px) {
@@ -57,17 +43,11 @@ layout: default
     {% include navbar.html %}
     {% include switch.html %}
 
-    <div id="featured-projects">
-        {% include featured-projects.html %}
-      </div>
-
     <div class="project-content">
-        <!-- Project Header Section -->
         <div class="section__title">
             {{ page.title }}
         </div>
         <div class="section__content">
-            <!-- Project metadata -->
             <div class="project__meta">
                 {% if page.date %}
                 <div class="job__time">{{ page.date | date: "%Y • %B" }}</div>
@@ -81,12 +61,10 @@ layout: default
                 {% endif %}
             </div>
 
-            <!-- Project content -->
             <div class="project__description">
                 {{ content }}
             </div>
 
-            <!-- Technologies -->
             {% if page.technologies %}
             <div class="project__tech">
                 <h3>Technologies Used</h3>
@@ -98,7 +76,6 @@ layout: default
             </div>
             {% endif %}
 
-            <!-- Project links -->
             {% if page.links %}
             <div class="project__links">
                 {% if page.links.github %}

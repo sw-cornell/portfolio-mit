@@ -3,19 +3,42 @@
     <div class="section__content">
     <div class="works-section__content">
         <div class="works__grid">
-            {% for project in site.projects %}
-              <div class="project__box">
-                <a href="{{ project.url }}">  <!-- This will link to the project detail page -->
-                  <div class="project__card">
-                    <div class="project__image">
-                      <img src="../img/ct2.jpg" alt="{{ project.title }}">
+            <!-- Technical Projects -->
+            <div class="project__box">
+                <a href="{{ site.baseurl }}/technical">
+                    <div class="project__card">
+                        <div class="project__image">
+                            <img src="../img/ct2.jpg" alt="Technical Projects">
+                        </div>
+                        <h3 class="project__name">TECHNICAL PROJECTS</h3>
                     </div>
-                    <h3 class="project__name">{{ project.title }}</h3>
-                  </div>
                 </a>
-              </div>
-            {% endfor %}
-          </div>
+            </div>
+        
+            <!-- Product Projects -->
+            <div class="project__box">
+                <a href="{{ site.baseurl }}/product">
+                    <div class="project__card">
+                        <div class="project__image">
+                            <img src="../img/ct2.jpg" alt="Product Projects">
+                        </div>
+                        <h3 class="project__name">PRODUCT PROJECTS</h3>
+                    </div>
+                </a>
+            </div>
+        
+            <!-- Media Projects -->
+            <div class="project__box">
+                <a href="{{ site.baseurl }}/media">
+                    <div class="project__card">
+                        <div class="project__image">
+                            <img src="../img/ct2.jpg" alt="Media Projects">
+                        </div>
+                        <h3 class="project__name">MEDIA PROJECTS</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 

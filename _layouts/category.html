@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<style>
+    #navbar {
+        position: fixed;
+        top: 0;
+        padding: 40px;
+        width: 100%;
+        overflow: auto;
+        transition: top 0.1s;
+    }
+
+    .category-content {
+        padding: 120px 100px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 630px) {
+        .category-content {
+            padding: 120px 70px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .category-content {
+            padding: 70px 50px;
+        }
+    }
+</style>
+
+<div id="site">
+    {% include navbar.html %}
+    {% include switch.html %}
+
+    <div class="category-content">
+        <div class="section__title">
+            {{ page.title }}
+        </div>
+        
+        <div class="works__grid">
+            {% for project in site.pages %}
+                {% if project.path contains 'details/' and project.category == page.category %}
+                    <div class="project__box">
+                        <a href="{{ project.url }}">
+                            <div class="project__card">
+                                <div class="project__image">
+                                    <img src="../img/ct2.jpg" alt="{{ project.title }}">
+                                </div>
+                                <h3 class="project__name">{{ project.title }}</h3>
+                            </div>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="footer">
+        {% include footer.html %}
+    </div>
+    {% include top-button.html %}
+</div>
