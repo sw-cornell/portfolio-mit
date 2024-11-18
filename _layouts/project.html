@@ -2,39 +2,100 @@
 layout: default
 ---
 <style>
+    .project-content {
+        padding: 40px 100px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .project__title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .project__date {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1.5rem;
+    }
+
     .project__used__item {
         display: inline-block;
-        margin: 3px 3px 3px 0;
+        margin: 0 8px 8px 0;
         font-family: Inconsolata, monospace;
         font-size: .75rem;
-        font-weight: 700;
-        padding: 2px 7px;
-        border-radius: 3px;
+        font-weight: 500;
+        padding: 4px 12px;
+        border-radius: 15px;
         color: #007bff;
         border: 1px solid #007bff;
-        background: 0 0;
+        background: transparent;
+    }
+
+    .project__meta {
+        margin-bottom: 2rem;
+    }
+
+    .project__description h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 2rem 0 1rem;
+        color: #333;
+    }
+
+    .project__description p {
+        line-height: 1.6;
+        color: #444;
+        margin-bottom: 1.5rem;
     }
 
     img.responsive {
         width: 100%;
         height: auto;
+        border-radius: 8px;  /* Rounded corners for images */
+        margin: 1.5rem 0;
     }
 
-    .project-content {
-        padding: 120px 100px;
-        max-width: 1440px;
-        margin: 0 auto;
+    .project__tech {
+        margin-top: 2rem;
     }
 
-    @media screen and (max-width: 630px) {
+    .project__tech h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .project__links {
+        margin-top: 2rem;
+    }
+
+    .arrow-link {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 4px;
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+        transition: background 0.3s ease;
+    }
+
+    .arrow-link:hover {
+        background: #0056b3;
+    }
+
+    @media screen and (max-width: 768px) {
         .project-content {
-            padding: 120px 70px;
+            padding: 40px 50px;
         }
     }
 
     @media screen and (max-width: 480px) {
         .project-content {
-            padding: 70px 50px;
+            padding: 30px 25px;
         }
     }
 </style>
@@ -44,49 +105,47 @@ layout: default
     {% include switch.html %}
 
     <div class="project-content">
-        <div class="section__title">
+        <div class="project__title">
             {{ page.title }}
         </div>
-        <div class="section__content">
-            <div class="project__meta">
-                {% if page.date %}
-                <div class="job__time">{{ page.date | date: "%Y • %B" }}</div>
-                {% endif %}
-                {% if page.categories %}
-                <div class="project__used">
-                    {% for category in page.categories %}
-                    <span class="project__used__item">{{ category }}</span>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-
-            <div class="project__description">
-                {{ content }}
-            </div>
-
-            {% if page.technologies %}
-            <div class="project__tech">
-                <h3>Technologies Used</h3>
-                <div class="project__used">
-                    {% for tech in page.technologies %}
-                    <span class="project__used__item">{{ tech }}</span>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-
-            {% if page.links %}
-            <div class="project__links">
-                {% if page.links.github %}
-                <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
-                {% endif %}
-                {% if page.links.demo %}
-                <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">Live Demo</a>
-                {% endif %}
+        <div class="project__date">
+            {{ page.date | date: "%Y • %B" }}
+        </div>
+        <div class="project__meta">
+            {% if page.categories %}
+            <div class="project__used">
+                {% for category in page.categories %}
+                <span class="project__used__item">{{ category }}</span>
+                {% endfor %}
             </div>
             {% endif %}
         </div>
+
+        <div class="project__description">
+            {{ content }}
+        </div>
+
+        {% if page.technologies %}
+        <div class="project__tech">
+            <h3>Technologies Used</h3>
+            <div class="project__used">
+                {% for tech in page.technologies %}
+                <span class="project__used__item">{{ tech }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if page.links %}
+        <div class="project__links">
+            {% if page.links.github %}
+            <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
+            {% endif %}
+            {% if page.links.demo %}
+            <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">Live Demo</a>
+            {% endif %}
+        </div>
+        {% endif %}
     </div>
 
     <div id="footer">
