@@ -1,88 +1,146 @@
 ---
 layout: default
 ---
+
 <script>
     $(function() {
-  const d = new Date();
-  const hours = d.getHours();
-  const night = hours >= 19 || hours <= 7; // between 7pm and 7am
-  const body = document.querySelector('body');
-  const toggle = document.getElementById('toggle');
-  const input = document.getElementById('switch');
+        const d = new Date();
+        const hours = d.getHours();
+        const night = hours >= 19 || hours <= 7; // between 7pm and 7am
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        const input = document.getElementById('switch');
 
-  if (night) {
-    input.checked = true;
-    body.classList.add('night');
-  }
+        // Apply initial mode based on time
+        if (night) {
+            input.checked = true;
+            body.classList.add('night');
+        }
 
-  toggle.addEventListener('click', function() {
-    const isChecked = input.checked;
-    if (isChecked) {
-      body.classList.remove('night');
-    } else {
-      body.classList.add('night');
-    }
-  });
+        // Toggle between day and night mode
+        toggle.addEventListener('click', function() {
+            const isChecked = input.checked;
+            if (isChecked) {
+                body.classList.remove('night');
+            } else {
+                body.classList.add('night');
+            }
+        });
 
-  const introHeight = document.querySelector('.intro').offsetHeight;
-  const topButton = document.getElementById('top-button');
-  const $topButton = $('#top-button');
+        // Scroll-to-top button functionality
+        const introHeight = document.querySelector('.intro').offsetHeight;
+        const topButton = document.getElementById('top-button');
+        const $topButton = $('#top-button');
 
-  window.addEventListener(
-    'scroll',
-    function() {
-      if (window.scrollY > introHeight) {
-        $topButton.fadeIn();
-      } else {
-        $topButton.fadeOut();
-      }
-    },
-    false
-  );
+        window.addEventListener(
+            'scroll',
+            function() {
+                if (window.scrollY > introHeight) {
+                    $topButton.fadeIn();
+                } else {
+                    $topButton.fadeOut();
+                }
+            },
+            false
+        );
 
-  topButton.addEventListener('click', function() {
-    $('html, body').animate({ scrollTop: 0 }, 500);
-  });
+        topButton.addEventListener('click', function() {
+            $('html, body').animate({ scrollTop: 0 }, 500);
+        });
 
-  const hand = document.querySelector('.emoji.wave-hand');
+        // Wave hand animation
+        const hand = document.querySelector('.emoji.wave-hand');
 
-  function waveOnLoad() {
-    hand.classList.add('wave');
-    setTimeout(function() {
-      hand.classList.remove('wave');
-    }, 2000);
-  }
+        function waveOnLoad() {
+            hand.classList.add('wave');
+            setTimeout(function() {
+                hand.classList.remove('wave');
+            }, 2000);
+        }
 
-  setTimeout(function() {
-    waveOnLoad();
-  }, 1000);
+        setTimeout(function() {
+            waveOnLoad();
+        }, 1000);
 
-  hand.addEventListener('mouseover', function() {
-    hand.classList.add('wave');
-  });
+        hand.addEventListener('mouseover', function() {
+            hand.classList.add('wave');
+        });
 
-  hand.addEventListener('mouseout', function() {
-    hand.classList.remove('wave');
-  });
+        hand.addEventListener('mouseout', function() {
+            hand.classList.remove('wave');
+        });
 
-  window.sr = ScrollReveal({
-    reset: false,
-    duration: 600,
-    easing: 'cubic-bezier(.694,0,.335,1)',
-    scale: 1,
-    viewFactor: 0.3,
-  });
+        // ScrollReveal for animations
+        window.sr = ScrollReveal({
+            reset: false,
+            duration: 600,
+            easing: 'cubic-bezier(.694,0,.335,1)',
+            scale: 1,
+            viewFactor: 0.3,
+        });
 
-  sr.reveal('.background');
-  sr.reveal('.skills');
-  // sr.reveal('.experience', { viewFactor: 0.2 });
-  sr.reveal('.product-projects', { viewFactor: 0.1 });
-  sr.reveal('.media-projects', { viewFactor: 0.05 });
-});
-
-
+        sr.reveal('.background');
+        sr.reveal('.skills');
+        sr.reveal('.product-projects', { viewFactor: 0.1 });
+        sr.reveal('.media-projects', { viewFactor: 0.05 });
+    });
 </script>
+
 <style>
+    /* Default day mode styles */
+    body {
+        background-color: #ffffff;
+        color: #444452;
+        font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .project__title {
+        color: #333333;
+    }
+
+    .project__date {
+        color: #666666;
+    }
+
+    .project__used__item {
+        color: #007bff;
+        border: 1px solid #007bff;
+        background: transparent;
+    }
+
+    /* Night mode styles */
+    body.night {
+        background-color: #171c28;
+        color: #afafbf;
+    }
+
+    body.night a {
+        color: #4fb4ff;
+    }
+
+    body.night .project__title {
+        color: #e7e7e7;
+    }
+
+    body.night .project__date {
+        color: #b2b2b2;
+    }
+
+    body.night .project__used__item {
+        color: #4fb4ff;
+        border: 1px solid #4fb4ff;
+        background: rgba(79, 180, 255, 0.1);
+    }
+
+    /* Shared styles for responsiveness */
     .project-content {
         padding: 40px 100px;
         max-width: 1000px;
@@ -90,94 +148,57 @@ layout: default
         margin-top: 150px;
     }
 
-    .project__title {
-        font-size: 2rem;
-        font-weight: 600;
-        margin-bottom: 1rem;
-        color: #333;
-    }
-
-    .project__date {
-        font-size: 1rem;
-        color: #666;
-        margin-bottom: 1.5rem;
-    }
-
-    .project__used__item {
-        display: inline-block;
-        margin: 0 8px 8px 0;
-        font-family: Inconsolata, monospace;
-        font-size: .75rem;
-        font-weight: 500;
-        padding: 4px 12px;
-        border-radius: 15px;
-        color: #007bff;
-        border: 1px solid #007bff;
-        background: transparent;
-    }
-
-    .project__meta {
-        margin-bottom: 2rem;
-    }
-
-    .project__description h2 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin: 2rem 0 1rem;
-        color: #333;
-    }
-
-    .project__description p {
-        line-height: 1.6;
-        color: #444;
-        margin-bottom: 1.5rem;
+    .project__tech h3 {
+        margin-top: 20px;
     }
 
     img.responsive {
         width: 100%;
         height: auto;
-        border-radius: 8px;  /* Rounded corners for images */
+        border-radius: 8px;
         margin: 1.5rem 0;
     }
 
-    .project__tech {
-        margin-top: 2rem;
+    ul {
+        list-style: disc;
+        padding-left: 20px;
     }
 
-    .project__tech h3 {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
-        color: #333;
+    ul ul {
+        list-style: circle;
     }
 
-    .project__links {
-        margin-top: 2rem;
+    li {
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
     }
 
-    .arrow-link {
-        display: inline-block;
-        padding: 8px 16px;
-        border-radius: 4px;
-        background: #007bff;
-        color: white;
-        text-decoration: none;
-        margin-right: 1rem;
-        transition: background 0.3s ease;
-    }
-
-    .arrow-link:hover {
-        background: #0056b3;
-    }
-
+    /* Responsiveness */
     @media screen and (max-width: 768px) {
         .project-content {
-            padding: 40px 50px;
+            padding: 20px 50px;
+        }
+
+        .project__title {
+            font-size: 1.5rem;
+        }
+
+        .project__date {
+            font-size: 0.9rem;
         }
     }
 
     @media screen and (max-width: 480px) {
         .project-content {
-            padding: 30px 25px;
+            padding: 10px 25px;
+        }
+
+        .project__title {
+            font-size: 1.2rem;
+        }
+
+        .project__date {
+            font-size: 0.8rem;
         }
     }
 </style>
@@ -193,28 +214,19 @@ layout: default
         <div class="project__date">
             {{ page.date | date: "%Y • %B" }}
         </div>
-        <div class="project__meta">
-            {% if page.categories %}
-            <div class="project__used">
-                {% for category in page.categories %}
-                <span class="project__used__item">{{ category }}</span>
-                {% endfor %}
-            </div>
-            {% endif %}
-        </div>
 
         <div class="project__description">
-            {{ content }}
+            {{ content | markdownify }}
         </div>
 
         {% if page.technologies %}
         <div class="project__tech">
             <h3>Technologies Used</h3>
-            <div class="project__used">
+            <ul>
                 {% for tech in page.technologies %}
-                <span class="project__used__item">{{ tech }}</span>
+                <li>{{ tech }}</li>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
         {% endif %}
 
