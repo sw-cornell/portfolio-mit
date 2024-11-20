@@ -3,7 +3,7 @@ layout: default
 ---
 
 <script>
-    $(function() {
+    document.addEventListener('DOMContentLoaded', function () {
         const d = new Date();
         const hours = d.getHours();
         const night = hours >= 19 || hours <= 7; // between 7pm and 7am
@@ -18,76 +18,19 @@ layout: default
         }
 
         // Toggle between day and night mode
-        toggle.addEventListener('click', function() {
-            const isChecked = input.checked;
-            if (isChecked) {
+        toggle.addEventListener('click', function () {
+            if (input.checked) {
                 body.classList.remove('night');
             } else {
                 body.classList.add('night');
             }
         });
-
-        // Scroll-to-top button functionality
-        const introHeight = document.querySelector('.intro').offsetHeight;
-        const topButton = document.getElementById('top-button');
-        const $topButton = $('#top-button');
-
-        window.addEventListener(
-            'scroll',
-            function() {
-                if (window.scrollY > introHeight) {
-                    $topButton.fadeIn();
-                } else {
-                    $topButton.fadeOut();
-                }
-            },
-            false
-        );
-
-        topButton.addEventListener('click', function() {
-            $('html, body').animate({ scrollTop: 0 }, 500);
-        });
-
-        // Wave hand animation
-        const hand = document.querySelector('.emoji.wave-hand');
-
-        function waveOnLoad() {
-            hand.classList.add('wave');
-            setTimeout(function() {
-                hand.classList.remove('wave');
-            }, 2000);
-        }
-
-        setTimeout(function() {
-            waveOnLoad();
-        }, 1000);
-
-        hand.addEventListener('mouseover', function() {
-            hand.classList.add('wave');
-        });
-
-        hand.addEventListener('mouseout', function() {
-            hand.classList.remove('wave');
-        });
-
-        // ScrollReveal for animations
-        window.sr = ScrollReveal({
-            reset: false,
-            duration: 600,
-            easing: 'cubic-bezier(.694,0,.335,1)',
-            scale: 1,
-            viewFactor: 0.3,
-        });
-
-        sr.reveal('.background');
-        sr.reveal('.skills');
-        sr.reveal('.product-projects', { viewFactor: 0.1 });
-        sr.reveal('.media-projects', { viewFactor: 0.05 });
     });
 </script>
 
+
 <style>
-    /* Default day mode styles */
+    /* Default (Day Mode) Styles */
     body {
         background-color: #ffffff;
         color: #444452;
@@ -103,10 +46,13 @@ layout: default
     }
 
     .project__title {
+        font-size: 2.5rem; /* Increased font size */
+        font-weight: bold;
         color: #333333;
     }
 
     .project__date {
+        font-size: 1rem;
         color: #666666;
     }
 
@@ -116,10 +62,11 @@ layout: default
         background: transparent;
     }
 
-    /* Night mode styles */
+    /* Night Mode Styles */
     body.night {
         background-color: #171c28;
         color: #afafbf;
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     body.night a {
@@ -140,12 +87,12 @@ layout: default
         background: rgba(79, 180, 255, 0.1);
     }
 
-    /* Shared styles for responsiveness */
+    /* Shared Styles */
     .project-content {
         padding: 40px 100px;
         max-width: 1000px;
         margin: 0 auto;
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .project__tech h3 {
@@ -180,7 +127,7 @@ layout: default
         }
 
         .project__title {
-            font-size: 1.5rem;
+            font-size: 2rem; /* Reduced slightly for smaller screens */
         }
 
         .project__date {
@@ -194,7 +141,7 @@ layout: default
         }
 
         .project__title {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
 
         .project__date {
