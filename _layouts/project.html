@@ -162,6 +162,17 @@ layout: default
             {{ page.date | date: "%Y • %B" }}
         </div>
 
+        {% if page.links %}
+        <div class="project__links">
+            {% if page.links.github %}
+            <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
+            {% endif %}
+            {% if page.links.demo %}
+            <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">View Demo</a>
+            {% endif %}
+        </div>
+        {% endif %}
+        
         <div class="project__description">
             {{ content | markdownify }}
         </div>
@@ -174,17 +185,6 @@ layout: default
                 <li>{{ tech }}</li>
                 {% endfor %}
             </ul>
-        </div>
-        {% endif %}
-
-        {% if page.links %}
-        <div class="project__links">
-            {% if page.links.github %}
-            <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
-            {% endif %}
-            {% if page.links.demo %}
-            <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">View Demo</a>
-            {% endif %}
         </div>
         {% endif %}
     </div>
