@@ -45,7 +45,7 @@ To showcase the model's capabilities, I built an interactive **web application u
 
 This demo bridges the gap between technical implementation and user-friendly visualization, making the results easy to interpret.
 
-![SpotTheFake Demo](../img/spotthefake-demo.jpg){:.responsive}
+![SpotTheFake Demo](../img/spot-the-fake.png){:.responsive}
 
 ## Technology Stack
 
