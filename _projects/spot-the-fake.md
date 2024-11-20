@@ -11,6 +11,7 @@ technologies:
   - Support Vector Machine
 links:
   github: https://github.com/sw-cornell/SpotTheFake
+  demo: https://drive.google.com/file/d/1dAwC0Ui-IpIbffOoG6oa_Hi2GC0z0f8Y/view?usp=sharing
 ---
 
 ## Overview
