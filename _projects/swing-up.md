@@ -11,7 +11,6 @@ technologies:
  - Data Analysis
 links:
  demo: https://drive.google.com/file/d/1sMIxXD4sa9SlaOfhLlElkON-pONQSv1_/view?usp=sharing
-description: A machine learning-powered digital coaching system that analyzes baseball hitting mechanics to optimize squared-up rates using Minor League Baseball data.
 ---
 
 ## Introduction

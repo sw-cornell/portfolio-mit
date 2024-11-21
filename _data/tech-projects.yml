@@ -4,45 +4,56 @@
   description: A Streamlit web app using an SVM classifier and advanced NLP preprocessing to detect fake reviews, combating the $152 billion business impact of fraud.
   image_name: ../img/spot-the-fake.png
   used:
-    - thing: JavaScript
-    - thing: Three.js
-    - thing: Node.js
-    - thing: HTML
-    - thing: CSS
+    - thing: Python
+    - thing: Machine Learning
+    - thing: Streamlit
+    - thing: Natural Language Processing
+    - thing: Support Vector Machine
 
-- name: Mapping Content Deserts&#x003B; Bridging Gaps in Local Journalism
-  url: https://github.com/HerStat-Heroes/herstatheroes-mvp
-  code: https://github.com/HerStat-Heroes/herstatheroes-mvp
+- name: Mapping Content Deserts&#x003A; Bridging Gaps in Local Journalism
+  url: https://sw-cornell.github.io/projects/local-news-llm
+  code: https://sw-cornell.github.io/projects/local-news-llm
   description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
   image_name: ../img/featured/swingup/swingup.jpg
   used:
+    - thing: Large Language Models
     - thing: Python
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: Pandas
-    - thing: NumPy
+    - thing: Google Maps API
+    - thing: Data Analysis 
+    - thing: Prompt Engineering
 
-- name: MiniTorch
-  url: https://github.com/Xuening0322/mini-torch-mle
-  code: https://github.com/Xuening0322/mini-torch-mle
-  description: A machine learning framework inspired by PyTorch, with pure Python re-implementation of the Torch API. The final library can run Torch code and visualize tensors and training process.
+- name: Cough Gender Detection and Speaker Verification
+  url: https://sw-cornell.github.io/projects/cough-verification
+  code: https://sw-cornell.github.io/projects/cough-verification
+  description: A research study exploring sequential cough recordings for enhanced speaker verification and gender detection using transformer models.
   image_name: ../img/featured/minitorch/minitorch_mnist.png
   used:
-    - thing: Python
+    - thing: Wav2Vec
     - thing: PyTorch
-    - thing: Numba
-    - thing: Pytest
-    - thing: Streamlit
+    - thing: SpeechBrain
+    - thing: ECAPA-TDNN
+    - thing: Audio Processing
 
-- name: File Synchronization Tool 
-  url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
-  image_name: ../img/featured/filesharing/filesharing.png
+- name: SwingUp&#x003A; Advancing Baseball Hitting Mechanics
+  url: https://sw-cornell.github.io/projects/swing-up
+  code: https://sw-cornell.github.io/projects/swing-up
+  description: A machine learning-powered digital coaching system that analyzes baseball hitting mechanics to optimize squared-up rates using Minor League Baseball data.
+  image_name: ../img/swingup.jpg
   used:
     - thing: Python
-    - thing: Socket
-    - thing: TCP
-    - thing: UDP
+    - thing: Random Forest
+    - thing: Web Development
+    - thing: Machine Learning
+    - thing: Data Analysis
 
+- name: Predicting Severe Menopause Symptoms Risk Factors
+  url: https://sw-cornell.github.io/projects/ml-for-health
+  code: https://sw-cornell.github.io/projects/ml-for-health
+  description: A machine learning study using LSTM networks to predict menopause symptom severity based on lifestyle and health factors using the SWAN dataset.
+  image_name: ../img/featured/filesharing/filesharing.png
+  used:
+    - thing: PyTorch
+    - thing: Python
+    - thing: LSTM Networks
+    - thing: Random Forest
+    - thing: Support Vector Regression

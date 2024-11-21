@@ -12,7 +12,6 @@ technologies:
 links:
  paper: https://drive.google.com/file/d/1L-JZ5sgsGPVx80oCglN9NaBUsY3HMpZ7/view?usp=sharing
  github: https://github.com/kevinwiranata/Menopredictor
-description: A machine learning study using LSTM networks to predict menopause symptom severity based on lifestyle and health factors using the SWAN dataset.
 ---
 
 ## Introduction

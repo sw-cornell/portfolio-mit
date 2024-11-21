@@ -11,7 +11,6 @@ technologies:
  - Audio Processing
 links:
  paper: ""
-description: A research study exploring sequential cough recordings for enhanced speaker verification and gender detection using transformer models.
 ---
 
 ## Overview
