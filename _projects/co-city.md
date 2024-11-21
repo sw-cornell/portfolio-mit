@@ -2,12 +2,8 @@
 layout: project
 title: Co-City - Empowering Community Collaboration Through Transparent Participatory Budgeting and Design 
 date: 2024-03-15
-categories: [Urban Planning, Product Design, Community Development]
-technologies:
- - User Research
- - Product Design
- - Urban Planning
- - Voting Systems
+categories: [User Research, Product Design, Urban Planning, Voting Systems]
+
 links:
   demos:
     - title: View Product Design

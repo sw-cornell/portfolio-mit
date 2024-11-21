@@ -15,7 +15,7 @@ layout: default
         max-width: 1000px;
         margin: 100px auto 0;
         padding: 2rem;
-        margin-bottom: 200px;
+        margin-bottom: 500px;
     }
 
     .project__header {
@@ -403,17 +403,6 @@ layout: default
             </div>
             {% endif %}
             {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if page.technologies %}
-        <div class="project__tech">
-            <h3>Technologies Used</h3>
-            <ul class="project__tech-list">
-                {% for tech in page.technologies %}
-                <li class="project__used__item">{{ tech }}</li>
-                {% endfor %}
-            </ul>
         </div>
         {% endif %}
 
