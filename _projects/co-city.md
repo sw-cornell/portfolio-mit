@@ -11,7 +11,6 @@ technologies:
 links:
  design: https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing
  blueprint: https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing
-description: A user-centric participatory framework enabling communities to propose, vote on, and monitor public projects through transparent budgeting and design processes.
 ---
 
 ## Introduction
@@ -85,5 +84,5 @@ This structured approach bridges the gap between governance and community partic
 
 ## Resources
 
-- [View Product Blueprint](https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing)
-- [View Detailed Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)
+💡 **User Journey and Product Blueprint**: [View Blueprint](https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing)  
+🧑‍🎨 **Detailed Product Design**: [View Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)  

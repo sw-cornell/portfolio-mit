@@ -10,6 +10,8 @@ technologies:
  - Machine Learning
  - Data Analysis
 links:
+ code: https://github.com/HerStat-Heroes/herstatheroes-mvp
+ demo: https://herstatheroes-backend-67082157402.us-central1.run.app/
  demo: https://drive.google.com/file/d/1sMIxXD4sa9SlaOfhLlElkON-pONQSv1_/view?usp=sharing
 ---
 
