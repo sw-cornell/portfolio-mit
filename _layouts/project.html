@@ -30,7 +30,7 @@ layout: default
 
 
 <style>
-    /* Default (Day Mode) Styles */
+    /* Default day mode styles */
     body {
         background-color: #ffffff;
         color: #444452;
@@ -46,13 +46,10 @@ layout: default
     }
 
     .project__title {
-        font-size: 2.5rem; /* Increased font size */
-        font-weight: bold;
         color: #333333;
     }
 
     .project__date {
-        font-size: 1rem;
         color: #666666;
     }
 
@@ -62,11 +59,10 @@ layout: default
         background: transparent;
     }
 
-    /* Night Mode Styles */
+    /* Night mode styles */
     body.night {
         background-color: #171c28;
         color: #afafbf;
-        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     body.night a {
@@ -87,12 +83,12 @@ layout: default
         background: rgba(79, 180, 255, 0.1);
     }
 
-    /* Shared Styles */
+    /* Shared styles for responsiveness */
     .project-content {
         padding: 40px 100px;
         max-width: 1000px;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .project__tech h3 {
@@ -127,7 +123,7 @@ layout: default
         }
 
         .project__title {
-            font-size: 2rem; /* Reduced slightly for smaller screens */
+            font-size: 1.5rem;
         }
 
         .project__date {
@@ -141,7 +137,7 @@ layout: default
         }
 
         .project__title {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
 
         .project__date {
@@ -162,17 +158,6 @@ layout: default
             {{ page.date | date: "%Y • %B" }}
         </div>
 
-        {% if page.links %}
-        <div class="project__links">
-            {% if page.links.github %}
-            <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
-            {% endif %}
-            {% if page.links.demo %}
-            <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">View Demo</a>
-            {% endif %}
-        </div>
-        {% endif %}
-        
         <div class="project__description">
             {{ content | markdownify }}
         </div>
@@ -185,6 +170,17 @@ layout: default
                 <li>{{ tech }}</li>
                 {% endfor %}
             </ul>
+        </div>
+        {% endif %}
+
+        {% if page.links %}
+        <div class="project__links">
+            {% if page.links.github %}
+            <a href="{{ page.links.github }}" class="arrow-link" target="_blank">View Source</a>
+            {% endif %}
+            {% if page.links.demo %}
+            <a href="{{ page.links.demo }}" class="arrow-link" target="_blank">View Demo</a>
+            {% endif %}
         </div>
         {% endif %}
     </div>
