@@ -518,16 +518,19 @@ strong {
     }
 }
 
-.intro__hello,
-.intro__tagline {
+.intro__hello {
     font-size: 2.5rem
+}
+
+.intro__tagline {
+    font-size: 2rem
 }
 
 @media screen and (max-width:1024px) {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 2.25rem
+        font-size: 2rem
     }
 }
 
