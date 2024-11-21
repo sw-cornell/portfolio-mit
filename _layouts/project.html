@@ -296,18 +296,6 @@ layout: default
             </a>
             {% endif %}
 
-            {% if page.links.demos %}
-            {% for demo in page.links.demos %}
-            <a href="{{ demo.url }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
-                <svg class="icon" viewBox="0 0 24 24">
-                    <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                </svg>
-                {{ demo.title | default: "View Demo" }}
-            </a>
-            {% endfor %}
-            {% endif %}
-
             {% if page.links.demo %}
             <a href="{{ page.links.demo }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" viewBox="0 0 24 24">
@@ -316,6 +304,18 @@ layout: default
                 </svg>
                 View Demo
             </a>
+            {% endif %}
+
+            {% if page.links.demos %}
+            {% for demo in page.links.demos %}
+            <a href="{{ demo.url }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path
+                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                </svg>
+                {{ demo.title }}
+            </a>
+            {% endfor %}
             {% endif %}
 
             {% if page.links.paper %}
