@@ -5,7 +5,7 @@ layout: default
 <style>
     .project-content {
         max-width: 800px;
-        margin-top: 200px;
+        margin-top: 100px;
         padding: 2rem;
     }
 
@@ -70,6 +70,14 @@ layout: default
         padding: 0;
     }
 
+    .project__used__item {
+        background: var(--accent-light);
+        color: var(--accent);
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.25rem;
+        font-size: 0.875rem;
+    }
+
     .project__links {
         display: flex;
         gap: 1rem;
@@ -93,6 +101,42 @@ layout: default
         width: 1.25rem;
         height: 1.25rem;
         fill: currentColor;
+    }
+    .project__description ul {
+        list-style-type: disc;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project__description ol {
+        list-style-type: decimal;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project__description li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+    }
+
+    /* Nested list styling */
+    .project__description ul ul,
+    .project__description ul ol,
+    .project__description ol ul,
+    .project__description ol ol {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    /* List item spacing */
+    .project__description ul > li,
+    .project__description ol > li {
+        margin-bottom: 0.5rem;
+    }
+
+    .project__description ul > li:last-child,
+    .project__description ol > li:last-child {
+        margin-bottom: 0;
     }
 </style>
 
@@ -124,7 +168,7 @@ layout: default
         {% if page.technologies %}
         <div class="project__tech">
             <h3>Technologies Used</h3>
-            <ul class="project__used">
+            <ul class="project__tech-list">
                 {% for tech in page.technologies %}
                 <li class="project__used__item">{{ tech }}</li>
                 {% endfor %}
