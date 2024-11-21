@@ -152,6 +152,55 @@ layout: default
     .project__description ol>li:last-child {
         margin-bottom: 0;
     }
+
+    .article-section {
+        margin-top: 2rem;
+    }
+
+    .article-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .article-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .article-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .article-translation {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+
+    .article-links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .article-link {
+        color: var(--accent);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    .article-link:hover {
+        text-decoration: underline;
+    }
+
+    .article-link .icon {
+        width: 1rem;
+        height: 1rem;
+    }
 </style>
 
 <div id="site">
@@ -190,7 +239,8 @@ layout: default
             {% for demo in page.links.demos %}
             <a href="{{ demo.url }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/>
+                    <path
+                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
                 </svg>
                 {{ demo.title | default: "View Demo" }}
             </a>
@@ -198,7 +248,8 @@ layout: default
             {% elsif page.links.demo %}
             <a href="{{ page.links.demo }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/>
+                    <path
+                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
                 </svg>
                 View Demo
             </a>
@@ -255,6 +306,32 @@ layout: default
         <div class="project__description">
             {{ content | markdownify }}
         </div>
+
+        {% if page.articles %}
+        <div class="article-section">
+            <div class="article-list">
+                {% for article in page.articles %}
+                <div class="article-item">
+                    <div class="article-title">{{ article.title }}</div>
+                    {% if article.translation %}
+                    <div class="article-translation">{{ article.translation }}</div>
+                    {% endif %}
+                    <div class="article-links">
+                        {% for link in article.links %}
+                        <a href="{{ link.url }}" class="article-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM9 13v-1h6v1H9zm0 2v-1h6v1H9zm0 2v-1h6v1H9z" />
+                            </svg>
+                            {{ link.title }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
 
         {% if page.technologies %}
         <div class="project__tech">
