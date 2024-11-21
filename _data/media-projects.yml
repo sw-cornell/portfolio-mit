@@ -4,44 +4,26 @@
   description: A research study examining the role of influencer industry in addressing gender disparities in content creation, analyzing representation, economic opportunities, and systemic inequities.
   image_name: ../img/other/ecom/ecom.png
   used:
-    - thing: PHP
-    - thing: MySQL
-    - thing: Bootstrap
-    - thing: HTML
-    - thing: CSS
+    - thing: Research Methods
+    - thing: Data Analysis
 
-- name: Secure Image Steganography Tool
-  url: https://github.com/random-aes-group/PIPLUP
-  code: https://github.com/random-aes-group/PIPLUP
-  description: An enhanced image steganography solution utilizing LSB (Least Significant Bit) technique, AES encryption, and a unique Pixel-location Image Password mechanism.
+
+- name: Sport Herstory&#x003A; Mirror Society Through Sports
+  url: https://sw-cornell.github.io/projects/sport-herstory
+  code: https://sw-cornell.github.io/projects/sport-herstory
+  description: China's first podcast focused on women's sports, exploring athlete experiences, societal issues, and the intersection of sports with gender equality.
   image_name: ../img/other/stego/stego.png
   used:
-    - thing: Python
-    - thing: PyAES
-    - thing: OpenCV
-    - thing: GUI
+    - thing: Podcast Production
+    - thing: Sports Journalism
+    - thing: Cultural Analysis
 
-- name: Social Media Platform Application
-  url: https://github.com/SonicHollow/SonicHollowForum
-  code: https://github.com/SonicHollow/SonicHollowForum
-  description: A university social media platform enabling students to post, engage with content, and customize profiles, with an admin system for database CRUD operations.
+- name: Other Media Work
+  url: https://sw-cornell.github.io/projects/other-media-work
+  code: https://sw-cornell.github.io/projects/other-media-work
+  description: A collection of bilingual writing work covering technology, sports, and entertainment industries in China since 2019.
   image_name: ../img/other/forum/forum.png
   used:
-    - thing: Spring Boot
-    - thing: JQuery
-    - thing: Redis
-    - thing: Mybatis
-    - thing: Alibaba Cloud ECS
-    - thing: Docker
-
-- name: CCIC 2021
-  url: https://github.com/csmt-ccic-2021/CCIC
-  code: https://github.com/csmt-ccic-2021/CCIC
-  description: Computer Composition Identification Challenge (CCIC) dedicated to finding improved music generation models and objective evaluation models for a number of music styles, initiated by the Conference on Sound and Music Technology (CSMT) 2021. I was the coordinator of the data challenge. <a class="underline-link" href="https://csmt-ccic-2021.github.io/CCIC/">Website available here!</a>
-  image_name: ../img/other/ccic/ccic.png
-  used:
-    - thing: PyTorch
-    - thing: GitHub Pages
-    - thing: GitBook
-    - thing: HTML
-    - thing: CSS
+    - thing: Content Writing
+    - thing: Industry Research
+    - thing: Bilingual Writing

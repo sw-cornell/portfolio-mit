@@ -37,7 +37,6 @@ articles:
        links:
          - title: "Read Article"
            url: "https://mp.weixin.qq.com/s/L_Gr7TG30YZ7WkiGIATxLg"
-description: A collection of bilingual writing work covering technology, sports, and entertainment industries in China since 2019.
 ---
 
 ## Freelance Writing Experience
