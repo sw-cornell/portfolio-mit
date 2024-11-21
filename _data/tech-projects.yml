@@ -14,7 +14,7 @@
   url: https://sw-cornell.github.io/projects/local-news-llm
   code: https://sw-cornell.github.io/projects/local-news-llm
   description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
-  image_name: ../img/featured/swingup/swingup.jpg
+  image_name: ../img/swingup.jpg
   used:
     - thing: Large Language Models
     - thing: Python
