@@ -1,7 +1,7 @@
-- name: E-commerce Admin System
-  url: https://github.com/E-commerce-Admin/E-commerce-Admin-System
-  code: https://github.com/E-commerce-Admin/E-commerce-Admin-System
-  description: A web-based e-commerce management system, facilitating the handling of products, categories, orders, coupons, addresses, and users.
+- name: She Economy in Content Creation
+  url: https://sw-cornell.github.io/projects/she-economy
+  code: https://sw-cornell.github.io/projects/she-economy
+  description: A research study examining the role of influencer industry in addressing gender disparities in content creation, analyzing representation, economic opportunities, and systemic inequities.
   image_name: ../img/other/ecom/ecom.png
   used:
     - thing: PHP

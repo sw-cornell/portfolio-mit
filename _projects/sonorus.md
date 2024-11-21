@@ -9,7 +9,7 @@ technologies:
  - Product Design
  - User Research
 links:
- demo: https://www.youtube.com/watch?v=nwxmZ4p52mw&list=PLwaGuuWfXIbpnq-oC--GxSYuhNTToKgAG
+ presentation: https://www.youtube.com/watch?v=nwxmZ4p52mw&list=PLwaGuuWfXIbpnq-oC--GxSYuhNTToKgAG
 ---
 
 ## Introduction

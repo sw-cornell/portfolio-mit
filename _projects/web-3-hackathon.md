@@ -9,7 +9,7 @@ technologies:
  - Product Design
  - Figma
 links:
- figma: https://www.figma.com/proto/FdtVh6s0JjVREOUTG804Yc/Web3-Hackathon?content-scaling=fixed&kind=proto&node-id=66-48190&page-id=24%3A32110&scaling=scale-down&starting-point-node-id=47%3A38073
+ demo: https://www.figma.com/proto/FdtVh6s0JjVREOUTG804Yc/Web3-Hackathon?content-scaling=fixed&kind=proto&node-id=66-48190&page-id=24%3A32110&scaling=scale-down&starting-point-node-id=47%3A38073
  presentation: https://www.canva.com/design/DAF-aGs8G6o/6yKXn4gdrn8-C9vDAMymEQ/edit?utm_content=DAF-aGs8G6o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ---
 
