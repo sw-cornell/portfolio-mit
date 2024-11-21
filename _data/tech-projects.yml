@@ -10,10 +10,10 @@
     - thing: HTML
     - thing: CSS
 
-- name: Mapping Content Deserts: Bridging Gaps in Local Journalism
+- name: Mapping Content Deserts&#x003B; Bridging Gaps in Local Journalism
   url: https://github.com/HerStat-Heroes/herstatheroes-mvp
   code: https://github.com/HerStat-Heroes/herstatheroes-mvp
-  description: A project leveraging LLMs to identify underrepresented areas in local journalism, revealing coverage gaps and biases while proposing tools to better address community needs.
+  description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
   image_name: ../img/featured/swingup/swingup.jpg
   used:
     - thing: Python

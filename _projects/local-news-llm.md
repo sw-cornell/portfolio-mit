@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Mapping Content Deserts - Bridging Gaps in Local Journalism
+title: Mapping Content Deserts&#x003B; Bridging Gaps in Local Journalism
 date: 2024-03-15
 categories: [Research, Machine Learning, Data Analysis]
 technologies:
@@ -11,7 +11,6 @@ technologies:
  - Prompt Engineering
 links:
  paper: https://cplusj2024.github.io/papers/CJ_2024_paper_25.pdf
-description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
 ---
 
 ## Introduction
