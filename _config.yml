@@ -1,7 +1,7 @@
 # Site settings
 name: Siyan Wang
 title: Siyan Wang
-description: a machine learning engineer focused on technology &amp; creativity
+description: A tech-savvy media professional dedicated to transforming information creation and delivery, passionate about leveraging innovation for a more inclusive and interactive society.
 url: https://sw-cornell.github.io/
 baseurl: ''
 email: xw672@cornell.com
@@ -10,15 +10,11 @@ logo: https://bchiang7.github.io/img/emojis/technologist.png
 resume: https://xuening0322.github.io/files/xuening-wang.pdf
 social: 
   - title: email
-    url: mailto:xw672@cornell.com
+    url: mailto:siyansw@gmail.com
   - title: github
-    url: https://github.com/xuening0322
+    url: https://github.com/sw-cornell/
   - title: linkedin
-    url: https://www.linkedin.com/in/xueningwang
-  - title: instagram
-    url: https://instagram.com/xuening_0322
-  - title: blog
-    url: http://xuening.wang/blog
+    url: https://www.linkedin.com/in/siyan-wang-5251368b/
 
 # Build settings
 markdown: kramdown
