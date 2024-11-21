@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Mapping Content Deserts: Bridging Gaps in Local Journalism
+title: Mapping Content Deserts - Bridging Gaps in Local Journalism
 date: 2024-03-15
 categories: [Research, Machine Learning, Data Analysis]
 technologies:
