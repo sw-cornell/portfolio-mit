@@ -295,6 +295,7 @@ layout: default
                 View Source
             </a>
             {% endif %}
+
             {% if page.links.demos %}
             {% for demo in page.links.demos %}
             <a href="{{ demo.url }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
@@ -305,7 +306,9 @@ layout: default
                 {{ demo.title | default: "View Demo" }}
             </a>
             {% endfor %}
-            {% elsif page.links.demo %}
+            {% endif %}
+
+            {% if page.links.demo %}
             <a href="{{ page.links.demo }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" viewBox="0 0 24 24">
                     <path
@@ -314,6 +317,7 @@ layout: default
                 View Demo
             </a>
             {% endif %}
+
             {% if page.links.paper %}
             <a href="{{ page.links.paper }}" class="arrow-link" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" viewBox="0 0 24 24">

@@ -9,10 +9,12 @@ technologies:
  - Urban Planning
  - Voting Systems
 links:
- demo: https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing
- demo: https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing
+  demos:
+    - title: View Product Design
+      url: https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing
+    - title: View Blueprint
+      url: https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing
 ---
-
 ## Introduction
 
 **Participatory Budgeting (PB)** and **Participatory Design (PD)** are transformative approaches that foster collaboration and accountability among governments, communities, and experts. These frameworks empower citizens to:
