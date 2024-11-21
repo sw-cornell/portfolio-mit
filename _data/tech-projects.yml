@@ -1,8 +1,8 @@
-- name: CAMeleon
-  url: https://matteroftechlab.org/projects/2024-shuo-cameleon/cameleon.html
-  code: https://matteroftechlab.org/projects/2024-shuo-cameleon/cameleon.html
-  description: A 3D tool for digital fabrication. Designed to optimize digital fabrication workflows. Built with my amazing friends at Cornell Tech.
-  image_name: ../img/featured/cameleon/cameleon.png
+- name: SpotTheFake - Detecting Fake Reviews
+  url: https://sw-cornell.github.io/projects/spot-the-fake
+  code: https://sw-cornell.github.io/projects/spot-the-fake
+  description: A Streamlit web app using an SVM classifier and advanced NLP preprocessing to detect fake reviews, combating the $152 billion business impact of fraud.
+  image_name: ../img/spot-the-fake.png
   used:
     - thing: JavaScript
     - thing: Three.js
@@ -10,7 +10,7 @@
     - thing: HTML
     - thing: CSS
 
-- name: Personal Baseball Swing Coach
+- name: Mapping Content Deserts: Bridging Gaps in Local Journalism
   url: https://github.com/HerStat-Heroes/herstatheroes-mvp
   code: https://github.com/HerStat-Heroes/herstatheroes-mvp
   description: A hackathon project - an AI-powered personal baseball swing coach that provides personalized analysis for players. Built with my amazing friends at Cornell Tech.
