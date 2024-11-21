@@ -9,8 +9,8 @@ technologies:
  - Urban Planning
  - Voting Systems
 links:
- design: https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing
- blueprint: https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing
+ demo: https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing
+ demo: https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing
 ---
 
 ## Introduction
