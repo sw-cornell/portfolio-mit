@@ -5,7 +5,7 @@ layout: default
 <style>
     .project-content {
         max-width: 800px;
-        margin: 0 auto;
+        margin-top: 200px;
         padding: 2rem;
     }
 
@@ -70,14 +70,6 @@ layout: default
         padding: 0;
     }
 
-    .project__used__item {
-        background: var(--accent-light);
-        color: var(--accent);
-        padding: 0.25rem 0.75rem;
-        border-radius: 0.25rem;
-        font-size: 0.875rem;
-    }
-
     .project__links {
         display: flex;
         gap: 1rem;
@@ -132,7 +124,7 @@ layout: default
         {% if page.technologies %}
         <div class="project__tech">
             <h3>Technologies Used</h3>
-            <ul class="project__tech-list">
+            <ul class="project__used">
                 {% for tech in page.technologies %}
                 <li class="project__used__item">{{ tech }}</li>
                 {% endfor %}
