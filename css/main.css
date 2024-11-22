@@ -523,14 +523,14 @@ strong {
 }
 
 .intro__tagline {
-    font-size: 2rem
+    font-size: 1.8rem
 }
 
 @media screen and (max-width:1024px) {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 2rem
+        font-size: 1.6rem
     }
 }
 
@@ -538,7 +538,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 2rem
+        font-size: 1.4rem
     }
 }
 
@@ -546,7 +546,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.75rem
+        font-size: 1.3rem
     }
 }
 
@@ -554,7 +554,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.5rem
+        font-size: 1.2rem
     }
 }
 
@@ -562,7 +562,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.4rem
+        font-size: 1.1rem
     }
 }
 
