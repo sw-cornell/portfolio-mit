@@ -1,45 +1,82 @@
 <header class="intro">
-  <h1 class="intro__hello">Hi there!
-    <span class="emoji wave-hand animated"></span>
-  </h1>
+  <div class="intro__content">
+    <h1 class="intro__hello">
+      Hi there!
+      <span class="emoji wave-hand animated"></span>
+    </h1>
 
-  <h3 class="intro__tagline">I'm
-    <span class="name">Siyan</span>, a tech-savvy media professional dedicated to transforming information creation and delivery, passionate about leveraging innovation for a more inclusive and interactive society.
-    <span class="emoji technologist"></span>
-  </h3>
+    <h3 class="intro__tagline">
+      I'm
+      <span class="name">Siyan</span>, a tech-savvy media professional dedicated to transforming information creation
+      and delivery, passionate about leveraging innovation for a more inclusive and interactive society.
+      <span class="emoji technologist"></span>
+    </h3>
 
-  <div class="image-container">
-    <img src="../img/cover.png" alt="Descriptive text about the image">
+    <h3 class="intro__contact">
+      <span>Get in touch </span>
+      <span class="emoji pointer"></span>
+      <span>
+        <a href="mailto:siyansw@gmail.com" target="_blank" class="highlight-link">Email</a>
+        <a href="https://www.linkedin.com/in/siyan-wang-5251368b/" target="_blank" class="highlight-link">LinkedIn</a>
+      </span>
+    </h3>
   </div>
 
-  <h3 class="intro__contact">
-    <span>Get in touch </span>
-    <span class="emoji pointer"></span>
-    <span>
-      <a href="mailto:siyansw@gmail.com" target="_blank" class="highlight-link">Email</a>
-      <a href="https://www.linkedin.com/in/siyan-wang-5251368b/" target="_blank" class="highlight-link">LinkedIn</a>
-    </span>
-  </h3>
+  <div class="intro__image">
+    <img src="../img/cover.png" alt="Descriptive text about the image">
+  </div>
 </header>
 
 <style>
-  .image-container {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    right: 200px;
-    top: 50%;
-    transform: translateY(-50%);
-    overflow: hidden;
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  
-  .image-container img {
-    max-height: 100%;
-    max-width: 100%;
+
+  .intro__content {
+    flex: 1;
+    max-width: 600px;
   }
-  
+
+  .intro__image {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 1024px) {
+    .intro {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 4rem;
+    }
+
+    .intro__content {
+      margin-bottom: 2rem;
+    }
+
+    .intro__image {
+      margin-left: 0;
+      max-width: 400px;
+    }
+  }
+
   @media (max-width: 768px) {
-    .image-container {
+    .intro__image {
       display: none;
     }
   }
