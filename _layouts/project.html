@@ -2,78 +2,12 @@
 layout: default
 ---
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const siteElement = document.getElementById('site');
-        const toggleSwitch = document.getElementById('theme-switch');
-
-        // Add event listener to the toggle switch
-        toggleSwitch.addEventListener('change', () => {
-            if (toggleSwitch.checked) {
-                siteElement.classList.add('night');
-            } else {
-                siteElement.classList.remove('night');
-            }
-        });
-
-        // Maintain state between page reloads (optional)
-        const isNightMode = localStorage.getItem('nightMode') === 'true';
-        if (isNightMode) {
-            siteElement.classList.add('night');
-            toggleSwitch.checked = true;
-        }
-
-        // Save state to localStorage
-        toggleSwitch.addEventListener('change', () => {
-            localStorage.setItem('nightMode', toggleSwitch.checked);
-        });
-    });
-</script>
-
 <style>
-    :root {
-        --background-light: #ffffff;
-        --background-dark: #171c28;
-        --text-light: #444452;
-        --text-dark: #afafbf;
-        --accent-light: #a2d2ff;
-        --accent-dark: #7289da;
-    }
-
-    /* Default styles (Day mode) */
     #site {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: var(--background-light);
-        color: var(--text-light);
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    #site a {
-        color: var(--accent-light);
-    }
-
-    /* Night mode styles */
-    #site.night {
-        background-color: var(--background-dark);
-        color: var(--text-dark);
-    }
-
-    #site.night a {
-        color: var(--accent-dark);
-    }
-
-    /* Category background styling */
-    .project__category {
-        background-color: var(--accent-light);
-        color: var(--text-light);
-    }
-
-    #site.night .project__category {
-        background-color: var(--accent-dark);
-        color: var(--background-dark);
     }
 
     .project-content {
