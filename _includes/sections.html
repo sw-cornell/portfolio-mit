@@ -1,40 +1,39 @@
 <section class="section sections">
     <div class="section__title">Selected Works</div>
     <div class="section__content">
-    <div class="works-section__content">
-        <div class="works__grid">
+        <div class="works-grid">
             <!-- Technical Projects -->
-            <div class="project__box">
+            <div class="works-grid__item">
                 <a href="{{ site.baseurl }}/technical">
-                    <div class="project__card">
-                        <div class="project__image">
-                            <img src="../img/ct2.jpg" alt="Technical Projects">
+                    <div class="works-grid__card">
+                        <div class="works-grid__image">
+                            <img src="../img/tech-projects.jpg" alt="Technical Projects">
                         </div>
-                        <h3 class="project__name">TECHNICAL PROJECTS</h3>
+                        <h3 class="works-grid__title">Technical Projects</h3>
                     </div>
                 </a>
             </div>
-        
+            
             <!-- Product Projects -->
-            <div class="project__box">
+            <div class="works-grid__item">
                 <a href="{{ site.baseurl }}/product">
-                    <div class="project__card">
-                        <div class="project__image">
-                            <img src="../img/ct2.jpg" alt="Product Projects">
+                    <div class="works-grid__card">
+                        <div class="works-grid__image">
+                            <img src="../img/product-projects.jpg" alt="Product Projects">
                         </div>
-                        <h3 class="project__name">PRODUCT PROJECTS</h3>
+                        <h3 class="works-grid__title">Product Projects</h3>
                     </div>
                 </a>
             </div>
-        
+            
             <!-- Media Projects -->
-            <div class="project__box">
+            <div class="works-grid__item">
                 <a href="{{ site.baseurl }}/media">
-                    <div class="project__card">
-                        <div class="project__image">
-                            <img src="../img/ct2.jpg" alt="Media Projects">
+                    <div class="works-grid__card">
+                        <div class="works-grid__image">
+                            <img src="../img/media-projects.jpg" alt="Media Projects">
                         </div>
-                        <h3 class="project__name">MEDIA PROJECTS</h3>
+                        <h3 class="works-grid__title">Media Projects</h3>
                     </div>
                 </a>
             </div>
@@ -43,8 +42,7 @@
 </section>
 
 <style>
-
-    .works-section__grid {
+    .works-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
@@ -53,67 +51,57 @@
         padding: 0 2rem;
     }
 
-    .works-section__project-box {
+    .works-grid__item {
         position: relative;
     }
 
-    .works-section__project-box::before {
-        content: '';
+    .works-grid__card {
+        background: var(--bg-secondary);
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .works-grid__image {
+        position: relative;
+        width: 100%;
+        padding-bottom: 66.67%; /* 3:2 aspect ratio */
+        overflow: hidden;
+    }
+
+    .works-grid__image img {
         position: absolute;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
-        border: 2px solid #98D8D6;
-        border-radius: 1.5rem;
-        pointer-events: none;
-    }
-
-    .works-section__card {
-        background: white;
-        border-radius: 1rem;
-        overflow: hidden;
-    }
-
-    .works-section__image-container {
-        width: 100%;
-        height: 250px;
-        overflow: hidden;
-    }
-
-    .works-section__image {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: transform 0.3s ease;
     }
 
-    .works-section__card:hover .works-section__image {
+    .works-grid__card:hover .works-grid__image img {
         transform: scale(1.05);
     }
 
-    .works-section__project-title {
+    .works-grid__title {
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
         padding: 1.5rem;
         margin: 0;
+        color: var(--text-primary);
     }
 
     @media (max-width: 1024px) {
-        .works-section__grid {
+        .works-grid {
             grid-template-columns: repeat(2, 1fr);
         }
     }
 
     @media (max-width: 768px) {
-        .works-section__grid {
+        .works-grid {
             grid-template-columns: 1fr;
-        }
-        
-        .works-section__title {
-            font-size: 2rem;
+            padding: 0 1rem;
         }
     }
 </style>
-
