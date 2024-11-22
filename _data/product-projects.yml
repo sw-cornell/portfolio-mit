@@ -1,6 +1,6 @@
 - name: Co-City
-  url: https://sw-cornell.github.io/projects/co-city
-  code: https://sw-cornell.github.io/projects/co-city
+  url: https://sw-cornell.github.io/projects/product-co-city
+  code: https://sw-cornell.github.io/projects/product-co-city
   description: A user-centric participatory framework enabling communities to propose, vote on, and monitor public projects through transparent budgeting and design processes.
   image_name: ../img/featured/beatsplitter/beatsplitter.png
   used:
@@ -10,8 +10,8 @@
     - thing: Voting Systems
 
 - name: Sonorus
-  url: https://sw-cornell.github.io/projects/sonorus
-  code: https://sw-cornell.github.io/projects/sonorus
+  url: https://sw-cornell.github.io/projects/product-sonorus
+  code: https://sw-cornell.github.io/projects/product-sonorus
   description: A blockchain-based music platform introducing innovative incentive mechanisms to reward user engagement and promote emerging talent through fair compensation models.
   image_name: ../img/featured/poemtovideo/poemtovideo.png
   used:
@@ -21,8 +21,8 @@
     - thing: User Research
 
 - name: Web3 Hackathon
-  url: https://sw-cornell.github.io/projects/web-3-hackathon
-  code: https://sw-cornell.github.io/projects/web-3-hackathon
+  url: https://sw-cornell.github.io/projects/product-web-3-hackathon
+  code: https://sw-cornell.github.io/projects/product-web-3-hackathon
   description: A Web3 platform that transforms sports viewing into an immersive community experience through blockchain technology, AI-generated NFTs, and interactive fan engagement.
   image_name: ../img/featured/melostream/melostream.png
   used:
