@@ -13,7 +13,7 @@
                     </div>
                 </a>
             </div>
-            
+
             <!-- Product Projects -->
             <div class="works-grid__item">
                 <a href="{{ site.baseurl }}/product">
@@ -25,7 +25,7 @@
                     </div>
                 </a>
             </div>
-            
+
             <!-- Media Projects -->
             <div class="works-grid__item">
                 <a href="{{ site.baseurl }}/media">
@@ -67,6 +67,7 @@
         width: 100%;
         aspect-ratio: 9 / 16;
         overflow: hidden;
+        border-radius: 1rem;
     }
 
     .works-grid__image img {
@@ -75,8 +76,9 @@
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: contain; 
+        object-fit: contain;
         transition: transform 0.3s ease;
+        border-radius: 1rem;
     }
 
     .works-grid__card:hover .works-grid__image img {
