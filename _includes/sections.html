@@ -42,44 +42,39 @@
 </section>
 
 <style>
-    .section {
-        min-height: 100vh;
-    }
-
-    .section__title {
-        margin-bottom: 4rem;
-        color: #4A90E2;
-        font-size: 2rem;
-    }
-
     .works-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 3rem;
+        gap: 2rem;
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 2rem;
-        margin-bottom: 8rem;
     }
 
     .works-grid__item {
         position: relative;
-        margin-bottom: 4rem;
     }
 
     .works-grid__card {
         background: var(--bg-secondary);
         border-radius: 1rem;
         overflow: hidden;
+        height: 100%;
     }
 
     .works-grid__image {
+        position: relative;
         width: 100%;
+        padding-bottom: 177.78%;
+        overflow: hidden;
     }
 
     .works-grid__image img {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        display: block;
+        height: 100%;
         object-fit: cover;
         transition: transform 0.3s ease;
     }
@@ -92,7 +87,7 @@
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         margin: 0;
         color: var(--text-primary);
     }
@@ -100,7 +95,6 @@
     @media (max-width: 1024px) {
         .works-grid {
             grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
         }
     }
 
