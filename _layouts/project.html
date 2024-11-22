@@ -502,10 +502,8 @@ layout: default
 
     {% include top-button.html %}
 </div>
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Initialize the toggle switch functionality
         const initializeSwitch = () => {
             const d = new Date();
             const hours = d.getHours();
@@ -514,12 +512,14 @@ layout: default
             const toggleInput = document.getElementById('switch');
             const toggleLabel = document.getElementById('toggle');
 
+            // Initialize night mode based on time
             if (isNight) {
                 toggleInput.checked = true;
                 body.classList.add('night');
             }
 
-            toggleLabel.addEventListener('click', () => {
+            // Toggle event listener
+            toggleLabel?.addEventListener('click', () => {
                 if (toggleInput.checked) {
                     body.classList.remove('night');
                 } else {
@@ -528,6 +528,20 @@ layout: default
             });
         };
 
+        const handleImageInitialization = () => {
+            const images = document.querySelectorAll('.project__description img');
+            images.forEach(img => {
+                const figure = document.createElement('figure');
+                const figcaption = document.createElement('figcaption');
+                figcaption.textContent = img.alt;
+                img.classList.add('responsive');
+                img.parentNode.insertBefore(figure, img);
+                figure.appendChild(img);
+                if (img.alt) figure.appendChild(figcaption);
+            });
+        };
+
         initializeSwitch();
+        handleImageInitialization();
     });
 </script>
