@@ -505,21 +505,29 @@ layout: default
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Initialize switch functionality
-        if (typeof initializeSwitch === 'function') {
-            initializeSwitch();
-        }
+        // Initialize the toggle switch functionality
+        const initializeSwitch = () => {
+            const d = new Date();
+            const hours = d.getHours();
+            const isNight = hours >= 19 || hours <= 7;
+            const body = document.querySelector('body');
+            const toggleInput = document.getElementById('switch');
+            const toggleLabel = document.getElementById('toggle');
 
-        // Handle responsive images
-        const images = document.querySelectorAll('.project__description img');
-        images.forEach(img => {
-            img.classList.add('responsive');
-            const figure = document.createElement('figure');
-            const figcaption = document.createElement('figcaption');
-            figcaption.textContent = img.alt;
-            img.parentNode.insertBefore(figure, img);
-            figure.appendChild(img);
-            if (img.alt) figure.appendChild(figcaption);
-        });
+            if (isNight) {
+                toggleInput.checked = true;
+                body.classList.add('night');
+            }
+
+            toggleLabel.addEventListener('click', () => {
+                if (toggleInput.checked) {
+                    body.classList.remove('night');
+                } else {
+                    body.classList.add('night');
+                }
+            });
+        };
+
+        initializeSwitch();
     });
 </script>
