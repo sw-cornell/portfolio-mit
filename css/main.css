@@ -526,7 +526,7 @@ strong {
     font-size: 1.8rem
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1224px) {
 
     .intro__hello,
     .intro__tagline {
