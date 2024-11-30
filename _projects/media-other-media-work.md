@@ -17,7 +17,7 @@ articles:
   - section: Selected Chinese Writings
     items:
       - title: "从Sora展开，全面解读AI视频大模型发展史"
-      - translation: "From Sora&#x003A; A Comprehensive Analysis of the Development History of AI Video-Generation Models"
+      - translation: "From Sora&#x003A; The History of AI Video-Generated Models"
         links:
           - title: "Part 1: AI-Generated Video Analysis"
             url: "https://www.youtube.com/watch?v=oWO80lkP4bs"
