@@ -16,7 +16,7 @@ articles:
             url: https://pandaily.com/author/siyan-wang/
   - section: Selected Chinese Writings
     items:
-      - title: "从Sora展开，全面解读AI视频大模型发展史"
+      - title: "全面解读AI视频大模型发展史"
       - translation: "From Sora&#x003A; The History of AI Video-Generated Models"
         links:
           - title: "Part 1: AI-Generated Video Analysis"
