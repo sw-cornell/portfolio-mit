@@ -188,6 +188,11 @@ layout: default
         font-size: 0.9rem;
     }
 
+    .article-translation {
+        margin: 0;
+        line-height: 1.4;
+    }
+
     .article-links {
         display: flex;
         gap: 1rem;
@@ -345,9 +350,9 @@ layout: default
             <div class="project__date">
                 {% assign year = page.date | date: "%Y" %}
                 {% if year == "2000" %}
-                    Ongoing
+                Ongoing
                 {% else %}
-                    {{ year }}
+                {{ year }}
                 {% endif %}
             </div>
             {% if page.categories %}
