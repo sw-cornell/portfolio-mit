@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Other Media Work
-date: Ongoing
+date: 9999-12-31
 categories: [Writing, Technology Journalism, Industry Analysis]
 technologies:
   - Content Writing
