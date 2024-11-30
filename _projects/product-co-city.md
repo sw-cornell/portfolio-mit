@@ -76,9 +76,9 @@ This structured approach bridges the gap between governance and community partic
 
 ## Collaborators
 
-- Claire Wang - Harvard Master in Urban Planning
-- Indrajeet Haldar - Harvard Master in Design Tech
-- Maria Lucia Morelli - MIT Master in Urban Planning
+- Claire Wang, Harvard Master in Urban Planning
+- Indrajeet Haldar, Harvard Master in Design Tech
+- Maria Lucia Morelli, MIT Master in Urban Planning
 
 ## Resources
 

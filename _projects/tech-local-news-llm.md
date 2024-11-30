@@ -87,6 +87,6 @@ Status: **Accepted**
 
 ## Collaborators
 
-- Marianne Aubin Le Quéré – Cornell University  
-- Tazbia Fatima – Hearst Newspapers  
-- Michael Krisch – Brown Institute for Media Innovation
+- Marianne Aubin Le Quéré, Cornell University  
+- Tazbia Fatima, Hearst Newspapers  
+- Michael Krisch, Brown Institute for Media Innovation

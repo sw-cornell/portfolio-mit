@@ -49,7 +49,7 @@ This research is currently **under review**.
 
 ## Collaborators
 
-- Haomiao Li – Cornell Tech
-- Linh He – Sean Parker Institute for the Voice, Weill Cornell Medical College
-- Robin Zhao – Sean Parker Institute for the Voice, Weill Cornell Medical College
-- Anaïs Rameau – Sean Parker Institute for the Voice, Weill Cornell Medical College
+- Haomiao Li, Cornell Tech
+- Linh He, Sean Parker Institute for the Voice, Weill Cornell Medical College
+- Robin Zhao, Sean Parker Institute for the Voice, Weill Cornell Medical College
+- Anaïs Rameau, Sean Parker Institute for the Voice, Weill Cornell Medical College
