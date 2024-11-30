@@ -343,7 +343,11 @@ layout: default
                 {{ page.title }}
             </div>
             <div class="project__date">
-                {{ page.date | date: "%Y • %B" }}
+                {% if page.date == "ongoing" %}
+                    Ongoing
+                {% else %}
+                    {{ page.date | date: "%Y" }}
+                {% endif %}
             </div>
             {% if page.categories %}
             <div class="project__categories">

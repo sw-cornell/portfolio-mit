@@ -2,7 +2,7 @@
   url: https://sw-cornell.github.io/projects/product-co-city
   code: https://sw-cornell.github.io/projects/product-co-city
   description: A user-centric participatory framework enabling communities to propose, vote on, and monitor public projects through transparent budgeting and design processes.
-  image_name: ../img/featured/beatsplitter/beatsplitter.png
+  image_name: ../img/co-city.jpg
   used:
     - thing: User Research
     - thing: Product Design
