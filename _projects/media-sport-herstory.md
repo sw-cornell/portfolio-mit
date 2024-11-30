@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Sport Herstory｜Mirror Society Through Sports
-date: 9999-12-31
+date: 2000-12-31
 categories: [Podcasting, Sports Media, Gender Studies]
 links:
  apple: https://podcasts.apple.com/gb/podcast/%E4%BD%93%E4%BC%9A%E4%B8%80%E4%B8%8Bsport-herstory/id1616888796
