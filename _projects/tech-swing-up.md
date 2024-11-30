@@ -2,7 +2,7 @@
 layout: project
 title: SwingUp - Advancing Baseball Hitting Mechanics
 date: 2024-01-01
-categories: [Sports Analytics, Machine Learning, Web Development]
+categories: [Technical, Hackathon]
 links:
  github: https://github.com/HerStat-Heroes/herstatheroes-mvp
  demo: https://herstatheroes-backend-67082157402.us-central1.run.app/

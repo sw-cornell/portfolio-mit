@@ -2,7 +2,7 @@
 layout: project
 title: Exploring Cough Sounds for Gender Detection and Speaker Verification
 date: 2000-12-31
-categories: [Research, Machine Learning, Audio Processing]
+categories: [Technical, Research]
 links:
  paper: ""
 ---

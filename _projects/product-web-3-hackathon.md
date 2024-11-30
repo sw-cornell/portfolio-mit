@@ -2,7 +2,7 @@
 layout: project
 title: Match Day｜Blockchain-Based Sports Fan Engagement Platform
 date: 2024-01-01
-categories: [Blockchain, Web3, Product Design]
+categories: [Product, Hackathon]
 links:
  demo: https://www.figma.com/proto/W55TsEi2e6URBNY7fo4ouo/Match-Day?node-id=24-32110&t=tDk8xQuHBU9QYh8G-1
  presentation: https://www.canva.com/design/DAF-aGs8G6o/6yKXn4gdrn8-C9vDAMymEQ/edit?utm_content=DAF-aGs8G6o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton

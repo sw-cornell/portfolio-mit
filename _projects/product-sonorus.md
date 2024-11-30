@@ -2,7 +2,7 @@
 layout: project
 title: Sonorus - Empowering Musicians and Fans Through Blockchain Innovation
 date: 2022-01-01
-categories: [Blockchain, Product Design, Music Technology]
+categories: [Product, Professional Project]
 links:
  presentation: https://www.youtube.com/watch?v=nwxmZ4p52mw&list=PLwaGuuWfXIbpnq-oC--GxSYuhNTToKgAG
 ---

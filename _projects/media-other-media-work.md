@@ -2,7 +2,7 @@
 layout: project
 title: Other Media Work
 date: 2000-12-31
-categories: [Writing, Technology Journalism, Industry Analysis]
+categories: [Media, Side Project]
 technologies:
   - Content Writing
   - Industry Research

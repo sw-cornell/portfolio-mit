@@ -2,7 +2,7 @@
 layout: project
 title: Mapping Content Deserts&#x003A; Bridging Gaps in Local Journalism
 date: 2000-12-31
-categories: [Research, Machine Learning, Data Analysis]
+categories: [Technical, Research]
 links:
  paper: https://cplusj2024.github.io/papers/CJ_2024_paper_25.pdf
 ---
