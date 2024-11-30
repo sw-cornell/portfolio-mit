@@ -1,14 +1,8 @@
 ---
 layout: project
 title: Mapping Content Deserts&#x003A; Bridging Gaps in Local Journalism
-date: 2024-03-15
+date: 2024
 categories: [Research, Machine Learning, Data Analysis]
-technologies:
- - Large Language Models
- - Python
- - Google Maps API
- - Data Analysis 
- - Prompt Engineering
 links:
  paper: https://cplusj2024.github.io/papers/CJ_2024_paper_25.pdf
 ---

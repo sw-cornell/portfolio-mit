@@ -1,14 +1,8 @@
 ---
 layout: project
 title: SwingUp - Advancing Baseball Hitting Mechanics
-date: 2024-03-15
+date: 2024
 categories: [Sports Analytics, Machine Learning, Web Development]
-technologies:
- - Python
- - Random Forest
- - Web Development
- - Machine Learning
- - Data Analysis
 links:
  github: https://github.com/HerStat-Heroes/herstatheroes-mvp
  demo: https://herstatheroes-backend-67082157402.us-central1.run.app/
@@ -68,7 +62,7 @@ To assist athletes in visualizing **ball and bat locations** for each pitch and 
 
 ## Skills Highlighted
 - Machine Learning
-- Web Application Development
+- Web Development
 - Python
 - Product Design
 

@@ -1,12 +1,8 @@
 ---
 layout: project
 title: Sport Herstory｜Mirror Society Through Sports
-date: 2024-03-15
+date: Ongoing
 categories: [Podcasting, Sports Media, Gender Studies]
-technologies:
- - Podcast Production
- - Sports Journalism
- - Cultural Analysis
 links:
  apple: https://podcasts.apple.com/gb/podcast/%E4%BD%93%E4%BC%9A%E4%B8%80%E4%B8%8Bsport-herstory/id1616888796
  spotify: https://open.spotify.com/show/6M3eXMZCFqrmplhiYZqfvY
@@ -51,3 +47,10 @@ You can find Sport Herstory on various platforms:
 - [Xiaoyuzhou (小宇宙)](https://www.xiaoyuzhoufm.com/podcast/6231e928898a57c1c54e67d5)
 
 *Note: All episodes are in Chinese.*
+
+
+## Skills Highlighted
+
+- Podcast Production
+- Content Creation
+- Media Management

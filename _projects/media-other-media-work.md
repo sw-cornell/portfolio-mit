@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Other Media Work
-date: 2024-03-15
+date: Ongoing
 categories: [Writing, Technology Journalism, Industry Analysis]
 technologies:
   - Content Writing
@@ -17,6 +17,7 @@ articles:
   - section: Selected Chinese Writings
     items:
       - title: "Co-author 从Sora展开，全面解读AI视频大模型发展史"
+      - translation: From Sora&#x003A; A Comprehensive Analysis of the Development History of AI Video-Generation Models
         links:
           - title: "Part 1: AI-Generated Video Analysis"
             url: "https://www.youtube.com/watch?v=oWO80lkP4bs"

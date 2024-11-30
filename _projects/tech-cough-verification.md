@@ -1,14 +1,8 @@
 ---
 layout: project
 title: Exploring Cough Sounds for Gender Detection and Speaker Verification
-date: 2024-03-15
+date: Ongoing
 categories: [Research, Machine Learning, Audio Processing]
-technologies:
- - Wav2Vec
- - PyTorch
- - SpeechBrain
- - ECAPA-TDNN
- - Audio Processing
 links:
  paper: ""
 ---
@@ -46,6 +40,7 @@ This research is currently **under review**.
 ## Skills Highlighted
 - Transformer Models (e.g., Wav2Vec)
 - PyTorch
+- Audio Processing
 
 ## Collaborators
 

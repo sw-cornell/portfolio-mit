@@ -4,11 +4,10 @@
   description: A Streamlit web app using an SVM classifier and advanced NLP preprocessing to detect fake reviews, combating the $152 billion business impact of fraud.
   image_name: ../img/spot-the-fake.png
   used:
-    - thing: Python
     - thing: Machine Learning
-    - thing: Streamlit
-    - thing: Natural Language Processing
-    - thing: Support Vector Machine
+    - thing: Web Development
+    - thing: Python
+    - thing: Product Design Principles
 
 - name: Mapping Content Deserts&#x003A; Bridging Gaps in Local Journalism
   url: https://sw-cornell.github.io/projects/tech-local-news-llm
@@ -16,11 +15,10 @@
   description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
   image_name: ../img/local-news.jpg
   used:
-    - thing: Large Language Models
-    - thing: Python
-    - thing: Google Maps API
-    - thing: Data Analysis 
     - thing: Prompt Engineering
+    - thing: Survey Design
+    - thing: User Interview
+    - thing: Product Design
 
 - name: Cough Gender Detection and Speaker Verification
   url: https://sw-cornell.github.io/projects/tech-cough-verification
@@ -28,10 +26,8 @@
   description: A research study exploring sequential cough recordings for enhanced speaker verification and gender detection using transformer models.
   image_name: ../img/cough-sound.jpg
   used:
-    - thing: Wav2Vec
     - thing: PyTorch
-    - thing: SpeechBrain
-    - thing: ECAPA-TDNN
+    - thing: Transformer Models
     - thing: Audio Processing
 
 - name: SwingUp&#x003A; Advancing Baseball Hitting Mechanics
@@ -41,19 +37,16 @@
   image_name: ../img/swingup.jpg
   used:
     - thing: Python
-    - thing: Random Forest
-    - thing: Web Development
     - thing: Machine Learning
-    - thing: Data Analysis
+    - thing: Web Development
+    - thing: Product Design
 
 - name: Predicting Severe Menopause Symptoms Risk Factors
   url: https://sw-cornell.github.io/projects/tech-ml-for-health
   code: https://sw-cornell.github.io/projects/tech-ml-for-health
   description: A machine learning study using LSTM networks to predict menopause symptom severity based on lifestyle and health factors using the SWAN dataset.
-  image_name: ../img/featured/filesharing/filesharing.png
+  image_name: ../img/ml-for-health.jpg
   used:
     - thing: PyTorch
-    - thing: Python
-    - thing: LSTM Networks
-    - thing: Random Forest
-    - thing: Support Vector Regression
+    - thing: Machine Learning
+    - thing: Literature Review

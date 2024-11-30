@@ -1,14 +1,8 @@
 ---
 layout: project
 title: Predictive Model for Severe Menopause Symptoms Risk Factors (INFO 5375 Machine Learning for Health, Cornell Tech)
-date: 2024-03-15
+date: 2024
 categories: [Healthcare, Machine Learning, Research]
-technologies:
- - PyTorch
- - LSTM Networks
- - Random Forest
- - Support Vector Regression
- - Python
 links:
  paper: https://drive.google.com/file/d/1L-JZ5sgsGPVx80oCglN9NaBUsY3HMpZ7/view?usp=sharing
  github: https://github.com/kevinwiranata/Menopredictor

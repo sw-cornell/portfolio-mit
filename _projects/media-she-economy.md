@@ -1,7 +1,7 @@
 ---
 layout: project
 title: She Economy in Content Creation｜Does the Influencer Industry Bridge the Gender Gap in Content Creation?
-date: 2024-03-15
+date: 2024
 categories: [Research, Social Media Analysis, Gender Studies]
 technologies:
  - Research Methods
@@ -58,3 +58,4 @@ This research was conducted under the supervision of **Prof. Mukti Khaire**, the
 ## Skills Highlighted
 
 - Research
+- Social Media Analysis

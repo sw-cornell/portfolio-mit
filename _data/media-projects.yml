@@ -2,7 +2,7 @@
   url: https://sw-cornell.github.io/projects/media-she-economy
   code: https://sw-cornell.github.io/projects/she-economy
   description: A research study examining the role of influencer industry in addressing gender disparities in content creation, analyzing representation, economic opportunities, and systemic inequities.
-  image_name: ../img/other/ecom/ecom.png
+  image_name: ../img/she-economy.jpg
   used:
     - thing: Research Methods
     - thing: Data Analysis
@@ -12,17 +12,16 @@
   url: https://sw-cornell.github.io/projects/media-sport-herstory
   code: https://sw-cornell.github.io/projects/media-sport-herstory
   description: China's first podcast focused on women's sports, exploring athlete experiences, societal issues, and the intersection of sports with gender equality.
-  image_name: ../img/other/stego/stego.png
+  image_name: ../img/her-story.jpg
   used:
     - thing: Podcast Production
-    - thing: Sports Journalism
     - thing: Cultural Analysis
 
 - name: Other Media Work
   url: https://sw-cornell.github.io/projects/media-other-media-work
   code: https://sw-cornell.github.io/projects/media-other-media-work
   description: A collection of bilingual writing work covering technology, sports, and entertainment industries in China since 2019.
-  image_name: ../img/other/forum/forum.png
+  image_name: ../img/other-media-work.jpg
   used:
     - thing: Content Writing
     - thing: Industry Research

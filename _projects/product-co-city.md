@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Co-City - Empowering Community Collaboration Through Transparent Participatory Budgeting and Design 
-date: 2024-03-15
+date: 2020
 categories: [User Research, Product Design, Urban Planning, Voting Systems]
 
 links:
@@ -83,4 +83,11 @@ This structured approach bridges the gap between governance and community partic
 ## Resources
 
 💡 User Journey and Product Blueprint: [View Blueprint](https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing)  
-🧑‍🎨 Detailed Product Design: [View Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)  
+🧑‍🎨 Detailed Product Design: [View Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)
+
+## Skills Highlighted
+
+- Product Design
+- User Research
+- Social Goods
+- Product Management

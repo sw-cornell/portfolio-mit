@@ -1,14 +1,8 @@
 ---
 layout: project
 title: SpotTheFake - Detecting Fake Reviews
-date: 2024-11-15
+date: 2024
 categories: [Technical, Machine Learning, Web Development]
-technologies:
-  - Python
-  - Machine Learning
-  - Streamlit
-  - Natural Language Processing
-  - Support Vector Machine
 links:
   github: https://github.com/sw-cornell/SpotTheFake
   presentation: https://drive.google.com/file/d/1dAwC0Ui-IpIbffOoG6oa_Hi2GC0z0f8Y/view?usp=sharing

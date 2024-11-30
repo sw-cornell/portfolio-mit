@@ -6,27 +6,24 @@
   used:
     - thing: User Research
     - thing: Product Design
-    - thing: Urban Planning
-    - thing: Voting Systems
+    - thing: Social Goods
+    - thing: Product Management
 
 - name: Sonorus
   url: https://sw-cornell.github.io/projects/product-sonorus
   code: https://sw-cornell.github.io/projects/product-sonorus
   description: A blockchain-based music platform introducing innovative incentive mechanisms to reward user engagement and promote emerging talent through fair compensation models.
-  image_name: ../img/featured/poemtovideo/poemtovideo.png
+  image_name: ../img/sonorus.jpg
   used:
-    - thing: Blockchain
-    - thing: Smart Contracts
+    - thing: Blockchain Mechanism Design
     - thing: Product Design
     - thing: User Research
 
-- name: Web3 Hackathon
+- name: Match Day
   url: https://sw-cornell.github.io/projects/product-web-3-hackathon
   code: https://sw-cornell.github.io/projects/product-web-3-hackathon
   description: A Web3 platform that transforms sports viewing into an immersive community experience through blockchain technology, AI-generated NFTs, and interactive fan engagement.
   image_name: ../img/featured/melostream/melostream.png
   used:
-    - thing: Tezos Blockchain
-    - thing: AI NFT Generation
     - thing: Product Design
-    - thing: Figma
+    - thing: Product Management
