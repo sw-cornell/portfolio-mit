@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Predictive Model for Severe Menopause Symptoms Risk Factors (INFO 5375 Machine Learning for Health, Cornell Tech)
-date: 2024
+date: 2024-01-01
 categories: [Healthcare, Machine Learning, Research]
 links:
  paper: https://drive.google.com/file/d/1L-JZ5sgsGPVx80oCglN9NaBUsY3HMpZ7/view?usp=sharing

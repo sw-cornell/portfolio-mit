@@ -1,7 +1,7 @@
 ---
 layout: project
 title: SpotTheFake - Detecting Fake Reviews
-date: 2024
+date: 2024-01-01
 categories: [Technical, Machine Learning, Web Development]
 links:
   github: https://github.com/sw-cornell/SpotTheFake
