@@ -23,7 +23,7 @@
   url: https://sw-cornell.github.io/projects/product-web-3-hackathon
   code: https://sw-cornell.github.io/projects/product-web-3-hackathon
   description: A Web3 platform that transforms sports viewing into an immersive community experience through blockchain technology, AI-generated NFTs, and interactive fan engagement.
-  image_name: ../img/featured/melostream/melostream.png
+  image_name: ../img/web-3.jpg
   used:
     - thing: Product Design
     - thing: Product Management
