@@ -14,7 +14,7 @@
   url: https://sw-cornell.github.io/projects/tech-local-news-llm
   code: https://sw-cornell.github.io/projects/tech-local-news-llm
   description: A research study leveraging open-source LLMs to identify and analyze content deserts in local journalism, focusing on audience perspective and geographic coverage disparities.
-  image_name: ../img/swingup.jpg
+  image_name: ../img/local-news.jpg
   used:
     - thing: Large Language Models
     - thing: Python
@@ -26,7 +26,7 @@
   url: https://sw-cornell.github.io/projects/tech-cough-verification
   code: https://sw-cornell.github.io/projects/tech-cough-verification
   description: A research study exploring sequential cough recordings for enhanced speaker verification and gender detection using transformer models.
-  image_name: ../img/featured/minitorch/minitorch_mnist.png
+  image_name: ../img/cough-sound.jpg
   used:
     - thing: Wav2Vec
     - thing: PyTorch

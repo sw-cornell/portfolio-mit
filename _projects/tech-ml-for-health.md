@@ -55,13 +55,13 @@ This study demonstrates the potential of LSTM networks in advancing the predicti
 
 ## Skills Highlighted
 
-- **Machine Learning**
-- **PyTorch**
-- **Literature Review**
+- Machine Learning
+- PyTorch
+- Literature Review
 
 ## Collaborators
 
-- **Zeming Guo**
-- **Jueying Li**
-- **Lisa Sam Wang**
-- **Kevin Wiranata**
+- Zeming Guo
+- Jueying Li
+- Lisa Sam Wang
+- Kevin Wiranata

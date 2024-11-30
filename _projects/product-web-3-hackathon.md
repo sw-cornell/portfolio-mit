@@ -60,10 +60,10 @@ Match Day fosters a **community-driven experience** where fans can celebrate vic
 
 ## Skills Highlighted
 
-- **Product Design**
-- **Product Management**
+- Product Design
+- Product Management
 
 ## Collaborators
 
-- **Designer**: Gloria Hu
-- **Developers**: Mia Xuening Wang, Lisa Sam Wang, Amon Sthapit
+- Designer: Gloria Hu
+- Developers: Mia Xuening Wang, Lisa Sam Wang, Amon Sthapit

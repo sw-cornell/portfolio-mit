@@ -76,11 +76,11 @@ This structured approach bridges the gap between governance and community partic
 
 ## Collaborators
 
-- **Claire Wang** - Harvard Master in Urban Planning
-- **Indrajeet Haldar** - Harvard Master in Design Tech
-- **Maria Lucia Morelli** - MIT Master in Urban Planning
+- Claire Wang - Harvard Master in Urban Planning
+- Indrajeet Haldar - Harvard Master in Design Tech
+- Maria Lucia Morelli - MIT Master in Urban Planning
 
 ## Resources
 
-💡 **User Journey and Product Blueprint**: [View Blueprint](https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing)  
-🧑‍🎨 **Detailed Product Design**: [View Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)  
+💡 User Journey and Product Blueprint: [View Blueprint](https://drive.google.com/file/d/1mDdBCpacAcDjvsr2Y3y1ChLEapcBCtCA/view?usp=sharing)  
+🧑‍🎨 Detailed Product Design: [View Design](https://drive.google.com/file/d/1Lynm0ZOOcqV-CWCHhd8ZHr1n2vluq-ma/view?usp=sharing)  

@@ -67,12 +67,12 @@ To assist athletes in visualizing **ball and bat locations** for each pitch and 
 - **By Event**: Enter the pitch or hit event ID for detailed analysis
 
 ## Skills Highlighted
-- **Machine Learning**
-- **Web Application Development**
-- **Python**
-- **Product Design**
+- Machine Learning
+- Web Application Development
+- Python
+- Product Design
 
 ## Collaborators
-- **Mia Xuening Wang**
-- **Yiran Li**
-- **Mahira Pathan**
+- Mia Xuening Wang
+- Yiran Li
+- Mahira Pathan**

@@ -75,18 +75,18 @@ These metrics enable a nuanced understanding of how journalistic content aligns 
 
 ## Skills Highlighted
 
-- **Prompt Engineering**  
-- **Survey Design**  
-- **User Interview**  
-- **Product Design**  
+- Prompt Engineering  
+- Survey Design  
+- User Interview  
+- Product Design  
 
 ## Publication
 
-**Paper Link**: [Computation & Journalism Symposium 2024](https://cplusj2024.github.io/papers/CJ_2024_paper_25.pdf)  
-**Status**: Accepted  
+Paper Link: [Computation & Journalism Symposium 2024](https://cplusj2024.github.io/papers/CJ_2024_paper_25.pdf)  
+Status: **Accepted**
 
 ## Collaborators
 
-- **Marianne Aubin Le Quéré** – Cornell University  
-- **Tazbia Fatima** – Hearst Newspapers  
-- **Michael Krisch** – Brown Institute for Media Innovation
+- Marianne Aubin Le Quéré – Cornell University  
+- Tazbia Fatima – Hearst Newspapers  
+- Michael Krisch – Brown Institute for Media Innovation

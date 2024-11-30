@@ -41,6 +41,6 @@ At Sonorus, we believe that the **power to decide what trends** should belong to
 
 ## Skills Highlighted
 
-- **Blockchain Mechanism Design**
-- **Product Design**
-- **User Research**
+- Blockchain Mechanism Design
+- Product Design
+- User Research
