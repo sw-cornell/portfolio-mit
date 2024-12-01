@@ -21,6 +21,8 @@ articles:
         links:
           - title: "Part 1: AI-Generated Video Analysis"
             url: "https://www.youtube.com/watch?v=oWO80lkP4bs"
+          - title: "Part 2: The Impacts of AI Video"
+            url: "https://www.youtube.com/watch?v=YCH8yIxmPqc"
       - title: "广告大数据时代：谁在窥探我的生活？"
         translation: "Who Is Peeking into My Life in the Era of Big Data Advertising?"
         links:
